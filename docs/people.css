@@ -1,0 +1,82 @@
+/* Reset and body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8f0ff;
+}
+
+/* Header section styling */
+header {
+    background-image: url('images/group_photo.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling the image */
+    height: 1000px; /* Adjust the height to display the image properly */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the content vertically */
+    align-items: center; /* Centers the content horizontally */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+/* People header styling */
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Navigation styling */
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+    color: #003366;
+    margin-top: 20px;
+}
+
+.section ul {
+    list-style: disc;
+    padding-left: 40px;
+}
+
+.section ul li a {
+    text-decoration: none;
+    color: #003366;
+}
+
+.section ul li a:hover {
+    text-decoration: underline;
+}
+
+.person img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #003366;
+}

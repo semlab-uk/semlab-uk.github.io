@@ -1,0 +1,95 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('images/5G-Innovation-Centre.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    text-align: center; /* Center the logo */
+    margin: 20px 0;     /* Add spacing above and below the logo */
+}
+
+.logo img {
+    max-width: 150px;   /* Adjust size of the logo as needed */
+    height: auto;       /* Maintain aspect ratio */
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Optional overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero a {
+    color: white; /* White text color */
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+.hero a:hover {
+    text-decoration: underline; /* Add underline on hover for emphasis */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.hero p {
+    margin: 10px 0;
+}
+
+.hero .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero .social-icons a:hover {
+    text-decoration: underline;
+}
+
+/* Content Section */
+.content-section {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.content-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
