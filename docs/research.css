@@ -43,6 +43,13 @@ main {
     text-align: left;
 }
 
+.highlight-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
 main h2 {
     font-size: 2rem;
     margin-bottom: 10px;
